@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "EduNova SmartSched",
+    "slug": "edunova-smartsched",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "backgroundColor": "#0F1E45",
+    "primaryColor": "#2E7CF6",
+    "splash": {
+      "image": "./assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0F1E45"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.edunova.smartsched"
+    },
+    "android": {
+      "package": "com.edunova.smartsched",
+      "adaptiveIcon": {
+        "backgroundColor": "#0F1E45",
+        "foregroundImage": "./assets/icon.png"
+      },
+      "softwareKeyboardLayoutMode": "pan",
+      "permissions": ["INTERNET"]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-secure-store"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": ""
+      }
+    }
+  }
+}
